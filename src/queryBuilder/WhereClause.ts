@@ -9,7 +9,7 @@ export type ColumnReference = {
   column: string;
 };
 
-type ComparisonOperator = '=' | '!=' | '<>' | '>' | '<' | '>=' | '<=';
+export type ComparisonOperator = '=' | '!=' | '<>' | '>' | '<' | '>=' | '<=';
 type LikeOperator = 'LIKE';
 type NullOperator = 'IS NULL' | 'IS NOT NULL';
 type InOperator = 'IN' | 'NOT IN';

@@ -1,9 +1,9 @@
 import type {
   ColumnReference,
+  ComparisonOperator,
   InputCondition,
   ReferenceCondition,
 } from './WhereClause';
-import type { ComparisonOperator } from '../utils/types';
 
 type RefConditions = [string, ComparisonOperator, string];
 

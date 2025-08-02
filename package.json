@@ -2,8 +2,5 @@
   "name": "bird-sql",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "type": "module",
-  "scripts": {
-    "dev": "bun run src/index.ts"
-  }
+  "type": "module"
 }
